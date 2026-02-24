@@ -3,12 +3,12 @@ const projects = [
     {
     id: 1,
     title: "Customer Churn Prediction for SyriaTel",
-        category: "core",
-    image:"images/churn.jpeg",
+        category: "business",
+    image:"images/churn.JPEG",
     businessProblem: "SyriaTel telecommunications company faces significant customer attrition, resulting in revenue loss and market position erosion. The company needs to proactively identify at-risk customers and implement targeted retention strategies to reduce churn and improve customer loyalty.",
     approach: [
         "Analyzed 3,333 customer records with 20+ features including account length, service usage patterns, and customer service interactions",
-        "Implemented multiple classification algorithms (Random Forest, Decision Tree, Logistic Regression) with comprehensive hyperparameter tuning using GridSearchCV",
+        "Implemented multiple classification algorithms (Random Forest, Decision Tree, Logistic Regression) with hyperparameter tuning using GridSearchCV",
         "Addressed severe class imbalance using SMOTE oversampling technique and conducted outlier detection with z-score analysis",
         "Performed extensive feature engineering including one-hot encoding, label encoding, and multicollinearity analysis to identify key predictors"
     ],
@@ -26,14 +26,14 @@ const projects = [
     {
     id: 2,
     title: "House Price Prediction for Real Estate Investment",
-        category: "core",
+        category: "business",
     image:"images/prorealty.png",
     businessProblem: "Real estate investors need accurate property valuation models to identify undervalued opportunities, minimize overpayment risks, and maximize return on investment during market expansion strategies.",
     approach: [
         "Analyzed 21,613 property records from King County with 21 features including square footage, construction grade, year built, and waterfront access",
         "Implemented and compared multiple regression models (Linear Regression, Random Forest, Gradient Boosting) with hyperparameter tuning using GridSearchCV",
-        "Performed comprehensive feature engineering and outlier analysis, identifying and handling 94 extreme outliers (>100% prediction error)",
-        "Conducted correlation analysis and feature importance evaluation to identify top price drivers and actionable investment insights"
+        "Performed feature engineering and outlier analysis, identifying and handling 94 extreme outliers (>100% prediction error)",
+        "Ran correlation analysis and feature importance evaluation to identify the top price drivers and flag investment opportunities"
     ],
     results: [
         "Achieved 76.1% R² score with optimized Random Forest model after outlier removal, predicting property values with $120,554 average error (22.8% relative error)",
@@ -49,7 +49,7 @@ const projects = [
     {
     id: 3,
     title: "Flower Species Image Classification",
-        category: "core",
+        category: "nlp",
     image:"images/flowers.png",
     businessProblem: "Botanical research and conservation efforts require automated tools to identify and classify flower species from images, enabling biodiversity monitoring and ecological studies without manual expert identification.",
     approach: [
@@ -72,7 +72,7 @@ const projects = [
     {
     id: 4,
     title: "Life Expectancy Prediction for Healthcare Policy",
-        category: "core",
+        category: "healthcare",
     image:"images/gdp_life.png",
     businessProblem: "Healthcare policymakers struggle to effectively allocate limited resources because they lack data-driven insights into which health interventions most significantly impact population longevity, leading to inefficient spending and missed opportunities to improve public health outcomes.",
     approach: [
@@ -84,7 +84,7 @@ const projects = [
         "Achieved 96.2% R² score with tuned Random Forest model, predicting life expectancy within ±1.8 years (RMSE)",
         "Identified Adult Mortality, Schooling, Income Composition, BMI, and HIV/AIDS as the top 5 determinants of life expectancy",
         "Discovered that education (Schooling) had the strongest positive correlation (0.72) while Adult Mortality showed strongest negative correlation (-0.70)",
-        "Provided actionable policy recommendations highlighting that integrated approaches outperform single-factor interventions"
+        "Translated findings into policy recommendations, showing that integrated approaches outperform single-factor interventions"
     ],
     tags: ["Regression", "Public Health", "Random Forest", "EDA", "GridSearchCV", "Healthcare Analytics", "Policy Analysis"],
     github: "https://github.com/priscillanzula/Life-Expectancy-Prediction.git",
@@ -94,12 +94,12 @@ const projects = [
     {
     id: 5,
     title: "E-commerce Database System Design",
-        category: "supporting",
+        category: "engineering",
     image:"images/ecommerce ERD.png",
-    businessProblem: "Online retailers need robust, scalable database systems to manage complex operations including customer orders, inventory, payments, and shipping logistics while maintaining data integrity and performance.",
+    businessProblem: "Online retailers need a reliable database system to manage customer orders, inventory, payments, and shipping without things falling apart at scale. This project builds that system from the ground up.",
     approach: [
         "Designed normalized relational database schema with 15+ tables including Customers, Products, Orders, Payments, and Inventory",
-        "Implemented comprehensive SQL queries with JOIN operations, subqueries, and aggregate functions for business analytics",
+        "Wrote SQL queries with JOIN operations, subqueries, and aggregate functions for business reporting and analytics",
         "Created stored procedures and triggers for automated order processing, inventory updates, and data validation",
         "Established foreign key constraints and indexes to ensure referential integrity and optimize query performance"
     ],
@@ -117,11 +117,11 @@ const projects = [
     {
     id: 6,
     title: "IMDB Movie Review Sentiment Analysis",
-        category: "supporting",
+        category: "nlp",
     image:"images/movies.png",
     businessProblem: "Content platforms need automated sentiment analysis tools to process large volumes of user reviews, enabling better content recommendations and audience understanding without manual review.",
     approach: [
-        "Processed 50,000 IMDB movie reviews with comprehensive text preprocessing including HTML tag removal, lowercasing, and stopword filtering",
+        "Processed 50,000 IMDB movie reviews with text preprocessing including HTML tag removal, lowercasing, and stopword filtering",
         "Implemented Multinomial Naïve Bayes classifier from scratch with Laplace smoothing (α=1.0) to handle vocabulary of 107,883 words",
         "Designed custom text processing pipeline including tokenization, vocabulary building, and probability estimation using log-space calculations",
         "Conducted detailed error analysis to understand model limitations and identify challenging review patterns"
@@ -140,7 +140,7 @@ const projects = [
     {
     id: 7,
     title: "BisWatch: Retail & Business Finance Dashboard",
-        category: "supporting",
+        category: "business",
     image:"images/Retailer_dashboard.png",
     businessProblem: "Small business owners and freelancers need a simple, centralized tool to track income, expenses, and visualize financial health without complex accounting software.",
     approach: [
@@ -162,7 +162,7 @@ const projects = [
     {
     id: 8,
     title: "Breast Cancer Malignancy Classification",
-        category: "specialized",
+        category: "healthcare",
     image:"images/feature_importance_breast.png",
     businessProblem: "Medical diagnosis requires accurate tools to distinguish between benign and malignant tumors from cellular characteristics, reducing unnecessary biopsies and enabling timely treatment decisions.",
     approach: [
@@ -172,7 +172,7 @@ const projects = [
     
     ],
     results: [
-        "Achieved 96.4% accuracy and 0.997 AUC score on test data, demonstrating excellent discrimination ability",
+        "Achieved 96.4% accuracy and 0.997 AUC score on test data, showing strong discrimination between benign and malignant cases",
         "Identified bare nuclei as the most important predictive feature through permutation importance analysis",
         "Model showed strong performance with only 2 false positives and 3 false negatives out of 137 test samples",
         "Found optimal configuration using 78 support vectors (27 for benign class, 51 for malignant class)"
@@ -185,11 +185,11 @@ const projects = [
     {
     id: 9,
     title: "Heart Disease Risk Prediction",
-        category: "specialized",
+        category: "healthcare",
     image:"images/heart.png",
     businessProblem: "Healthcare providers need reliable tools to assess heart disease risk based on patient clinical and demographic data, enabling early intervention and preventive care.",
     approach: [
-        "Conducted comprehensive EDA on 303 patient records with 13 clinical features including age, cholesterol, blood pressure, and ECG results",
+        "Ran detailed EDA on 303 patient records with 13 clinical features including age, cholesterol, blood pressure, and ECG results",
         "Performed data cleaning by removing duplicates and converting appropriate features to categorical data types",
         "Applied K-Nearest Neighbors (KNN) algorithm with hyperparameter tuning using GridSearchCV",
         "Optimized model performance by testing different distance metrics (Euclidean vs Manhattan) and neighbor weights"
@@ -208,12 +208,12 @@ const projects = [
     {
     id: 10,
     title: "Library Management Database System",
-        category: "supporting",
-    image:"images/ERD_lib.png",
-    businessProblem: "Libraries need robust database systems to efficiently manage complex operations including book tracking, member management, borrowing transactions, and event scheduling while maintaining data integrity and supporting real-time operational needs.",
+        category: "engineering",
+    image:"images/lib-.png",
+    businessProblem: "Libraries need a reliable database to manage book tracking, member records, borrowing transactions, and events without losing data integrity or slowing down daily operations.",
     approach: [
         "Designed normalized relational database schema with 13 interconnected tables including Books, Members, Transactions, Authors, and Events using MySQL",
-        "Implemented comprehensive SQL queries with JOIN operations, subqueries, and aggregate functions for library analytics and reporting",
+        "Wrote SQL queries with JOIN operations, subqueries, and aggregate functions for library reporting and analytics",
         "Created complex relationships including many-to-many mappings for book-authors and event-attendees with proper foreign key constraints and indexing",
         "Developed stored procedures and triggers for automated transaction tracking, overdue fine calculations, and data integrity validation"
     ],
@@ -229,92 +229,24 @@ const projects = [
     imageColor: "#6366f1"
 },
     {
-    id: 15,
-    title: "Amazon Reviews NLP Analysis with SpaCy",
-        category: "supporting",
-    image:"images/spacy.png",
-    businessProblem: "Product reviews contain valuable information about customer opinions and mentioned products, but manually analyzing them is time-consuming. Automated tools can help extract key information like products mentioned and sentiment.",
-    approach: [
-        "Used spaCy for natural language processing to extract named entities like products and brands from Amazon review text",
-        "Built a rule-based sentiment analyzer with lists of positive and negative words to classify review sentiment",
-        "Created a Python class to organize the analysis workflow with methods for loading data, processing reviews, and displaying results",
-        "Implemented basic text preprocessing and visualization using matplotlib to show sentiment distribution and entity frequencies"
-    ],
-    results: [
-        "Successfully processed sample Amazon reviews and extracted product and brand mentions like iPhone, Apple, Samsung, etc.",
-        "Achieved 60% accuracy on sentiment analysis for a small test set using simple rule-based approach",
-        "Created visualizations showing sentiment distribution and most frequently mentioned brands and products",
-        "Built a working system that can be extended with more reviews or improved with machine learning techniques"
-    ],
-    tags: ["NLP", "SpaCy", "Python", "Sentiment Analysis", "Text Processing", "Data Visualization"],
-    github: "https://github.com/priscillanzula/Spacy-pytorch-tensorflow.git",
-    demo: null,
-    imageColor: "#8b5cf6"
-},
-    {
-    id: 12,
-    title: "Document Management System with Flask & MongoDB",
-        category: "supporting",
-    image:"images/documentation.png",
-    businessProblem: "Small teams and individuals need a simple way to organize and manage documents digitally, but complex systems can be overwhelming. A lightweight web-based solution can help store, retrieve, and manage documents without the overhead of enterprise systems.",
-    approach: [
-        "Built a Flask web application with MongoDB backend to store and manage documents with CRUD operations",
-        "Implemented a simple web interface for creating, reading, updating, and deleting documents with form validation",
-        "Used MongoDB for document storage with unique document IDs and basic search functionality by ID",
-        "Added user feedback with flash messages for successful operations and error handling",
-        "Created a clean, responsive web interface using HTML templates for document management tasks"
-    ],
-    results: [
-        "Successfully built a working document management system with full CRUD functionality",
-        "Implemented basic document search by ID with appropriate error messages when documents aren't found",
-        "Created a user-friendly web interface that allows non-technical users to manage documents",
-        
-        "Demonstrated full-stack web development skills combining backend (Flask, MongoDB) with frontend (HTML templates)"
-    ],
-    tags: ["Flask", "MongoDB", "Python", "Web Development", "CRUD", "Full-Stack", "Document Management", "NoSQL"],
-    github: "https://github.com/priscillanzula/Document-Management-System.git",
-    demo: null,
-    imageColor: "#06b6d4"
-},
-    {
         id: 13,
-        title: "Exploratory Data Analysis",
-        category: "core",
-        image:"images/eda.png",
-        businessProblem: "Develop comprehensive data analysis skills through systematic exploration of complex datasets.",
+        title: "HR Analytics: Employee Attrition Prediction",
+        category: "hr",
+        image: "images/logo.PNG",
+        businessProblem: "Employee turnover costs companies thousands of dollars in recruitment, training, and lost productivity. Most HR teams only react after employees have already decided to leave. This project was built to identify at-risk employees early so HR teams can step in before it is too late.",
         approach: [
-            "Performed data cleaning and preprocessing on diverse datasets",
-            "Created visualizations to uncover patterns, trends, and outliers",
-            "Applied statistical techniques to derive meaningful insights"
+            "Analyzed 29,524 employee records with features including workload, satisfaction scores, tenure, and performance evaluations",
+            "Built and compared multiple classification models (Random Forest, XGBoost, Logistic Regression) with SMOTE oversampling to handle class imbalance",
+            "Deployed a production-ready FastAPI REST endpoint with Swagger documentation and a CLI batch prediction tool"
         ],
         results: [
-            "Developed systematic approach to data exploration and analysis",
-            "Created portfolio of insights from multiple domain datasets",
-            "Built foundation for hypothesis-driven data science work"
+            "Achieved 71% F1-score and 0.87 ROC-AUC with Random Forest, catching 75% of at-risk employees before they leave",
+            "Identified top 3 attrition drivers: number of projects (24.4% importance), average monthly hours (23.0%), and satisfaction score (20.3%)",
+            "Found 33% company-wide attrition rate concentrated in Finance, Sales, and Operations departments",
+            "Defined clear HR intervention levels: immediate 1-on-1 meetings for employees at 60% or higher risk, and workload reviews for those in the medium risk range"
         ],
-        tags: ["EDA", "Data Visualization", "Python", "Pandas"],
-        github: "https://github.com/priscillanzula/Exploratory-Analysis-EDA-.git",
-        demo: null,
-        imageColor: "#f59e0b"
-    },
-    {
-        id: 14,
-        title: "Machine Learning Models",
-        category: "core",
-        image:"images/ensemble.png",
-        businessProblem: "Build and compare various machine learning algorithms to understand their strengths and applications.",
-        approach: [
-            "Implemented range of algorithms including tree-based models and ensemble methods",
-            "Compared performance across different problem types and datasets",
-            "Optimized hyperparameters and evaluated model performance rigorously"
-        ],
-        results: [
-            "Developed deep understanding of algorithm selection for different problems",
-            "Created framework for systematic model evaluation and comparison",
-            "Built reusable codebase for machine learning experimentation"
-        ],
-        tags: ["Machine Learning", "Trees", "Ensemble", "Python"],
-        github: "https://github.com/priscillanzula/MachineLearningTrees_Models.git",
+        tags: ["HR Analytics", "Random Forest", "XGBoost", "FastAPI", "SMOTE", "Python", "Scikit-learn", "Deployment"],
+        github: "https://github.com/priscillanzula/HR_Analytics.git",
         demo: null,
         imageColor: "#10b981"
     }

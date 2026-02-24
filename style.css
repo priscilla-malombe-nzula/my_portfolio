@@ -120,6 +120,49 @@ section {
     font-size: 0.9rem;
 }
 
+.nav-tagline {
+    font-size: 0.85rem;
+    color: var(--gray-color);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.btn-cv {
+    background-color: var(--secondary-color);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.btn-cv:hover {
+    background-color: #059669;
+}
+
+.hero-greeting {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.hero-role {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+.contact-item a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.contact-item a:hover {
+    color: var(--primary-dark);
+}
+
 /* Header & Navigation */
 header {
     background-color: white;
@@ -219,10 +262,12 @@ nav {
 
 .hero-text {
     flex: 1;
+    min-width: 0;
 }
 
 .hero-text h1 {
-    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
 }
 
 .hero-text p {
@@ -540,15 +585,17 @@ footer .logo {
 
     .hero-text {
         order: 1;
+        max-width: 100%;
+        width: 100%;
     }
-    
+
     .hero-image {
         order: 2;
-        width: 100%;
         max-width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
-    
+
     .hero-image img {
         max-height: min(350px, 40vh);
     }
@@ -559,6 +606,10 @@ footer .logo {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .nav-tagline {
+        display: none;
     }
 
     .nav-links {
