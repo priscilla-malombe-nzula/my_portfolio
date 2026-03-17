@@ -838,3 +838,27 @@ footer .logo {
         width: 0;
     }
 }
+/* Featured project badge & card highlight */
+.project-featured {
+    border: 2px solid var(--primary-color);
+}
+
+.project-img {
+    position: relative;
+}
+
+.featured-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.25rem 0.65rem;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    z-index: 2;
+    pointer-events: none;
+}
