@@ -6,7 +6,7 @@ This portfolio follows industry best practices and includes projects organized t
 ## 🚀 Portfolio Overview
 
 This repository contains my personal data science portfolio built with HTML, CSS, and JavaScript.  
-It features a project gallery where you can explore each project’s purpose, approach, technologies used, and links to the code. These projects span core machine learning workflows, supporting systems work, and specialized domain applications.
+It features a project gallery where you can explore each project's purpose, approach, technologies used, and links to the code. These projects span core machine learning workflows, supporting systems work, and specialized domain applications.
 
 ---
 
@@ -58,24 +58,20 @@ You can browse this portfolio right here on GitHub, or deploy it with GitHub Pag
 
 1. Fork or clone this repository:
    ```
-   git clone https://github.com/priscillanzula/my_portfolio.git
-   
-```
+   git clone https://github.com/priscilla-malombe-nzula/my_portfolio.git
+   ```
 2. Open the index.html file in a browser to view locally.
-
-```
 3. To publish as a live site, enable GitHub Pages in the repository settings.
 
 ### 🔗 View the Live Portfolio
 
-Add link here if deployed via GitHub Pages (e.g., https://priscillanzula.github.io/my_portfolio/).
+[nzulapriscillaportfolio.netlify.app](https://nzulapriscillaportfolio.netlify.app/)
 
 ### 📫 Connect With Me
 
+GitHub: https://github.com/priscilla-malombe-nzula
 
-GitHub: https://github.com/priscillanzula
-
-LinkedIn: https://www.linkedin.com/in/priscilla-nzula/
+LinkedIn: https://www.linkedin.com/in/priscilla-malombe-nzula/
 
 Email: danielpriscilla61@gmail.com
 
@@ -83,5 +79,3 @@ Email: danielpriscilla61@gmail.com
 
 This portfolio is open-source; feel free to reuse, fork, or adapt it!
 Licensed under the MIT License.
-
-
