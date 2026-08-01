@@ -22,7 +22,7 @@ const projects = [
             "Fully automated pipeline: daily GitHub Actions cron refreshes Supabase data, rebuilds dashboard, and sends maintenance alerts"
         ],
         tags: ["Predictive Maintenance", "Random Forest", "MySQL", "Supabase", "Streamlit", "Python", "GitHub Actions", "Manufacturing Analytics"],
-        github: "https://github.com/priscillanzula/-manufacturing-predictive-maintenance.git",
+        github: "https://github.com/priscilla-malombe-nzula/-manufacturing-predictive-maintenance.git",
         demo: "https://turbofan-predictive-maintenance-system.streamlit.app/",
         imageColor: "#f59e0b"
     },
@@ -47,7 +47,7 @@ const projects = [
             "Defined clear HR intervention levels: immediate 1-on-1 meetings for employees at 60%+ risk, workload reviews for medium risk"
         ],
         tags: ["HR Analytics", "Random Forest", "XGBoost", "FastAPI", "SMOTE", "Python", "Scikit-learn", "Deployment"],
-        github: "https://github.com/priscillanzula/HR_Analytics.git",
+        github: "https://github.com/priscilla-malombe-nzula/HR_Analytics.git",
         demo: null,
         imageColor: "#10b981"
     },
@@ -73,7 +73,7 @@ const projects = [
             "Delivered clear recommendations on markdowns, restocking priorities, and customer retention triggers"
         ],
         tags: ["Retail Analytics", "RFM Segmentation", "Sales Forecasting", "EDA", "Python", "Pandas", "Data Visualization", "Business Intelligence"],
-        github: "https://github.com/priscillanzula/stylesense-retail-analytics.git",
+        github: "https://github.com/priscilla-malombe-nzula/stylesense-retail-analytics.git",
         demo: null,
         imageColor: "#3b82f6"
     },
@@ -96,7 +96,7 @@ const projects = [
             "Created optimized model that correctly identified 95% of at-risk customers, enabling targeted retention campaigns with 74% success rate in pilot testing"
         ],
         tags: ["Classification", "Customer Analytics", "Random Forest", "SMOTE", "Feature Engineering", "Telecommunications", "Business Intelligence"],
-        github: "https://github.com/priscillanzula/Churn-Analysis.git",
+        github: "https://github.com/priscilla-malombe-nzula/Churn-Analysis.git",
         demo: null,
         imageColor: "#3b82f6"
     },
@@ -119,7 +119,7 @@ const projects = [
             "Quantified ROI opportunities: $19,300 value increase per 100 sqft expansion, $128,293 per grade level improvement, and $740,707 premium for waterfront access"
         ],
         tags: ["Regression", "Real Estate", "Random Forest", "Feature Engineering", "Investment Analysis", "Outlier Detection", "Business Intelligence"],
-        github: "https://github.com/priscillanzula/pro-realty.git",
+        github: "https://github.com/priscilla-malombe-nzula/pro-realty.git",
         demo: null,
         imageColor: "#10b981"
     },
@@ -144,7 +144,7 @@ const projects = [
             "Translated findings into policy recommendations, showing that integrated approaches outperform single-factor interventions"
         ],
         tags: ["Regression", "Public Health", "Random Forest", "EDA", "GridSearchCV", "Healthcare Analytics", "Policy Analysis"],
-        github: "https://github.com/priscillanzula/Life-Expectancy-Prediction.git",
+        github: "https://github.com/priscilla-malombe-nzula/Life-Expectancy-Prediction.git",
         demo: null,
         imageColor: "#f59e0b"
     },
@@ -167,7 +167,7 @@ const projects = [
             "Found optimal configuration using 78 support vectors (27 for benign class, 51 for malignant class)"
         ],
         tags: ["Medical ML", "SVM", "Classification", "Healthcare", "ROC-AUC", "Feature Importance", "Scikit-learn"],
-        github: "https://github.com/priscillanzula/Breast-Cancer_-Prediction.git",
+        github: "https://github.com/priscilla-malombe-nzula/Breast-Cancer_-Prediction.git",
         demo: null,
         imageColor: "#84cc16"
     },
@@ -191,7 +191,7 @@ const projects = [
             "Found asymptomatic chest pain strongly correlated with heart disease (69.6% of cases)"
         ],
         tags: ["Healthcare", "KNN", "Classification", "EDA", "Scikit-learn", "GridSearchCV", "Clinical Analytics"],
-        github: "https://github.com/priscillanzula/Heart_disease_prediction.git",
+        github: "https://github.com/priscilla-malombe-nzula/Heart_disease_prediction.git",
         demo: null,
         imageColor: "#f97316"
     },
@@ -217,7 +217,7 @@ const projects = [
             "Created modular schema allowing easy extension for new features like promotions, reviews, and shipping carriers"
         ],
         tags: ["SQL", "Database Design", "Data Modeling", "Query Optimization", "Stored Procedures", "Normalization"],
-        github: "https://github.com/priscillanzula/Ecommerce-Db.git",
+        github: "https://github.com/priscilla-malombe-nzula/Ecommerce-Db.git",
         demo: null,
         imageColor: "#ef4444"
     },
@@ -240,7 +240,7 @@ const projects = [
             "Implemented automated data validation preventing inconsistent states (orphaned transactions, duplicate member entries, invalid return dates)"
         ],
         tags: ["SQL", "Database Design", "Data Modeling", "Normalization", "MySQL", "Relational Databases", "System Architecture"],
-        github: "https://github.com/priscillanzula/Library-Db.git",
+        github: "https://github.com/priscilla-malombe-nzula/Library-Db.git",
         demo: null,
         imageColor: "#6366f1"
     },
@@ -266,7 +266,7 @@ const projects = [
             "Identified tulips as most challenging class (81% recall) due to visual similarity with roses in certain orientations"
         ],
         tags: ["Deep Learning", "Computer Vision", "TensorFlow", "InceptionV3", "Transfer Learning", "Image Classification"],
-        github: "https://github.com/priscillanzula/Inception-V3-Flower-Classification.git",
+        github: "https://github.com/priscilla-malombe-nzula/Inception-V3-Flower-Classification.git",
         demo: null,
         imageColor: "#8b5cf6"
     },
@@ -289,7 +289,7 @@ const projects = [
             "Identified key discriminative words for each sentiment class through probability analysis"
         ],
         tags: ["NLP", "Text Classification", "Naïve Bayes", "Sentiment Analysis", "Python", "Scikit-learn", "IMDB Dataset"],
-        github: "https://github.com/priscillanzula/Movie-Review-Analysis_Naive_bayes.git",
+        github: "https://github.com/priscilla-malombe-nzula/Movie-Review-Analysis_Naive_bayes.git",
         demo: null,
         imageColor: "#ec4899"
     }
